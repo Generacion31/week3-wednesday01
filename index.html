@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ETIQUETAS</title>
+</head>
+
+<body>
+  <!-- ETIQUETAS de estructuras en HTML -->
+  <!-- Dentro de HTML 5, tenemos un conjunto de etiquetas semanticass que nos ayudan a organizar nuestro contenido: main, article, section, nav, header -->
+
+  <header>
+    <!-- Es la cabecera de nuestro documento html -->
+    <h1>Mi primer titulo</h1>
+    <!-- Solo en un pagina puede haber un h1, que representa el titulo mas importante de mi pagina -->
+    <p>Lorem ipsum dolor <em>develpoer</em> <strong>los mejores programadores los encontraras en Academlo</strong>
+      Praesentium, illo!</p>
+
+    <!-- la etiqueta p , se la utilizar para escribir texto, como parrafos -->
+    <!-- la etiqueta em, me permite resaltar/enfatizar texto  -->
+    <!-- strong nos me permite aun mas resaltar un texto -->
+  </header>
+
+  <hr>
+
+  <h2>Navegacion</h2>
+
+  <nav>
+    <ul>
+      <li>
+        <a href="#">Inicio</a>
+        <a href="https://www.google.com/" target="_blank">GOOGLE</a>
+        <a href="https://www.youtube.com/">Youtube</a>
+      </li>
+    </ul>
+  </nav>
+
+  <hr>
+
+  <main>
+    <!-- Importante: Solo puede haber un main en una pagina. El main contiene todo aquel contenido principal de la pagina.  -->
+
+    <section>
+      <!-- es una etiqueta html, se utiliza para agrupar y organizar el contenido  a la pagina, secmentando al main -->
+
+      <!-- los elementos que veremo a continuacion nos permitiran poner titulo dentro de nuetro documento . El contenido sera el nombre o la cabecera del contenido que represnetaremos -->
+      <h2> h2 - titulo en h2</h2>
+      <h3> h3 - titulo en h3</h3>
+      <h4> h4 - titulo en h4</h4>
+      <h5> h5 - titulo en h5</h5>
+      <h6> h6 - titulo en h6</h6>
+    </section>
+
+
+    <hr>
+
+    <section>
+      <h3>Parrafos</h3>
+
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi distinctio quisquam illum dolore quis iure
+        molestiae, assumenda cum minima quidem?</p>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque magnam fugit labore officiis delectus
+        reprehenderit saepe nobis rerum at aliquam veritatis dolorum atque dolorem beatae dolor corrupti possimus, est
+        sit, mollitia enim fugiat in natus! Quia minus debitis ducimus excepturi sit explicabo suscipit nemo ad aliquid
+        nam. Dolorum, incidunt perferendis!</p>
+    </section>
+    <hr>
+
+    <section>
+      <h3>Enlaces a otros Documentos</h3>
+      <a href="document.html">Esto es un enlace a document</a>
+      <a href="document.html#resumen">Ir a resumen para ver mas detalles</a>
+
+
+      <h3>Enlaces a archivos</h3>
+      <a href="./assets/img/bg.png" target="_blank"> Esto es una imagen</a>
+      <a href="./assets/audio/audio.mp3" target="_blank">Esto es un audio</a>
+    </section>
+    <hr>
+
+    <section>
+      <h3>protocoles de url</h3>
+      <a href="mailto:usuario@gmail.com">Contactame 👋</a>
+      <br>
+      <a href="mailto:usuario@gmail.com?subject=estoy%20aprendiendo%20html">Contactame con asunto👋</a>
+      <a href="https://wa.me/+5493320023?text=tu%20mensaje%20De%20Texto">enviar whatsapp</a>
+      <a href="tel:+5493999999">Telefono personal ☎️</a>
+    </section>
+
+    <hr>
+
+    <section>
+      <h3>LISTAS</h3>
+
+      <h4>Las lista en html pueden ser de dos tipos:</h4>
+      <h5>ordenadas</h5>
+      <h5>desordenadas</h5>
+
+      <ol>
+        <!-- order list -->
+        <li>este es el primer elemento</li>
+        <li>este es el segundo elemento</li>
+        <li>este es el tercer elemento</li>
+      </ol>
+
+
+      <ul>
+        <li>primer elemento</li>
+        <li>segundo elemento</li>
+        <li>tercer elemento</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <section>
+      <h3>contenido embebido</h3>
+
+      <img src="./assets/img/cover.jpg" alt="esta imagen es un cover" width="100%">
+      <video src="./assets/video/video.mp4" autoplay loop muted width="400"></video>
+
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/tkdLEfFwgvg?si=ke--EhUbZGAWOQt5&amp;start=10"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+
+      <iframe src="https://htmlreference.io/" frameborder="1" width="100%" height="450"></iframe>
+
+      <iframe src="document.html" frameborder="1" width="100%" height="450"></iframe>
+
+
+    </section>
+
+
+
+  </main>
+
+</body>
+
+</html>
